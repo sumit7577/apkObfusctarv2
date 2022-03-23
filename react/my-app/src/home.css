@@ -1,0 +1,124 @@
+@media screen and(min-width:1200px) {
+    .contaminent{
+        margin-left: "40%";
+    }
+}
+
+.content{
+    position: absolute;
+    content: "";
+    bottom:15px;
+    left:15px;
+    top:15px;
+    right:15px;
+    background: #2a2b2f;
+    border:2px solid #1e1f23;
+    border-radius:10px;
+    box-shadow: 0px 20px 50px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.contaminent .card{
+    display:flex;
+    position:relative;
+    height: 21rem;
+    width: 17rem;
+    margin: 20px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.3),
+    -5px -5px 15px rgba(255,255,255,0.1);
+    border-radius: 15px;
+}
+.contaminent .card:before{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    content:"";
+    height: 50%;
+    width:100%;
+    background: rgba(255,255,255,0.5);
+}
+
+.text{
+    align-self: flex-end;
+    margin-left: 7.5em;
+}
+.content{
+    position: absolute;
+    content: "";
+    bottom:15px;
+    left:15px;
+    top:15px;
+    right:15px;
+    background: #2a2b2f;
+    border:2px solid #1e1f23;
+    border-radius:10px;
+    box-shadow: 0px 20px 50px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.content:hover{
+    transform: translateY(-50px);
+    box-shadow:0px 40px 70px rgba(0,0,0,0.5);
+}
+.h11{
+    position: absolute;
+    top:-130px;
+    font-size: 7em;
+    right: 30px;
+    color: rgba(255,255,255,0.07);
+}
+.h33{
+    z-index:1;
+    font-size: 2rem;
+    color: rgba(255,255,255,0.7);
+}
+.pp{
+    color:white;
+}
+
+.card-a{
+    position: relative;
+    display:inline-block;
+    top:15px;
+    font-size: 1.5em;
+    background: #2196f3;
+    text-decoration: none;
+    height:2em;
+    width:6em;
+    border-radius:15px;
+    color:white;
+}
+
+.contaminent .card:nth-child(1){
+    background: #2196f3;
+}
+.ok{
+    background: #e91e63;
+}
+
+.more{
+    text-decoration: none;
+    background: white;
+    color:black;
+    display: inline-block;
+    padding:8px 35px;
+    border-radius:20px;
+    font-size:17px;
+    margin-top:5px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+    cursor: pointer;
+}

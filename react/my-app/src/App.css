@@ -1,0 +1,153 @@
+
+.contiment{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    font-family: 'Yusei Magic', sans-serif;
+}
+img{
+    height: 100px;
+    width:100px;
+}
+.contiment .image{
+    position: absolute;
+    left:4vh;
+}
+.text{
+    align-self: flex-end;
+    margin-left: 7.5em;
+}
+.navbar-brand{
+    font-family: 'Fredoka One', cursive;
+    font-size:1.7rem;
+}
+
+body:before{
+    content:"";
+    position: absolute;
+    top:50;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(#f00,#f0f);
+    clip-path: circle(30% at right 60%);
+    z-index: -1;
+}
+body:after{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(#2196f3,#e91e60);
+    clip-path: circle(20% at left 40%);
+    z-index:-1;
+}
+.more{
+    text-decoration: none;
+    background: white;
+    color:black;
+    display: inline-block;
+    padding:8px 35px;
+    border-radius:20px;
+    font-size:17px;
+    margin-top:5px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+
+
+.contaminent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:1200px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+.contaminent .card{
+    display:flex;
+    position:relative;
+    height: 21rem;
+    width: 17rem;
+    margin: 20px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.3),
+    -5px -5px 15px rgba(255,255,255,0.1);
+    border-radius: 15px;
+}
+.contaminent .card:before{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    content:"";
+    height: 50%;
+    width:100%;
+    background: rgba(255,255,255,0.5);
+}
+.content{
+    position: absolute;
+    content: "";
+    bottom:15px;
+    left:15px;
+    top:15px;
+    right:15px;
+    background: #2a2b2f;
+    border:2px solid #1e1f23;
+    border-radius:10px;
+    box-shadow: 0px 20px 50px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+.content:hover{
+    transform: translateY(-50px);
+    box-shadow:0px 40px 70px rgba(0,0,0,0.5);
+}
+.h11{
+    position: absolute;
+    top:-35px;
+    font-size: 7em;
+    right: 30px;
+    color: rgba(255,255,255,0.07);
+}
+.h33{
+    z-index:1;
+    font-size: 1rem;
+    color: rgba(255,255,255,0.7);
+}
+.pp{
+    color:white;
+}
+.card-a{
+    position: relative;
+    display:inline-block;
+    top:15px;
+    font-size: 1.5em;
+    background: #2196f3;
+    text-decoration: none;
+    height:2em;
+    width:6em;
+    border-radius:15px;
+    color:white;
+}
+.contaminent .card:nth-child(1){
+    background: #2196f3;
+}
+.contaminent .card:nth-child(2){
+    background: #e91e63;
+}
+.ok{
+    background: #e91e63;
+}
