@@ -46,6 +46,7 @@ def backgroundWork(secureFilename,obfuscator):
         return True
 
     except Exception as e:
+        print(e)
         return False
 
     
@@ -112,4 +113,4 @@ def delete(filename):
         return {"error":True,"message":"File Not Found!"}
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
