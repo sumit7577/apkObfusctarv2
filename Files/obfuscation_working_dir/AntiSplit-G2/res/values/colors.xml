@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="action_bar">#ffccffcc</color>
+    <color name="colorAccent">#ffff4081</color>
+    <color name="colorBackground">#ffcccccc</color>
+    <color name="colorPrimary">#ff3f51b5</color>
+    <color name="colorPrimaryDark">#ff303f9f</color>
+    <color name="material_deep_teal_200">#ff80cbc4</color>
+    <color name="material_deep_teal_500">#ff009688</color>
+</resources>

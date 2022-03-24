@@ -143,7 +143,6 @@ const CustomSelect = React.forwardRef(function CustomSelect(props, ref) {
 function Selector() {
   let uploading = useSelector(state => state);
   const download = () => {
-    const prev = localStorage.getItem("previous");
     try {
       window.open(
         `/download/${uploading.payload.message}`,
@@ -152,8 +151,7 @@ function Selector() {
     } catch (e) {
       console.error(e);
     }
-    fetch(`/delete/${prev}`
-    ).then((resp)=>resp.json).then((data)=>console.log(data)).catch((e)=>console.error(e));
+
   }
   const LoadingState = () => {
     if (uploading.upload === true) {

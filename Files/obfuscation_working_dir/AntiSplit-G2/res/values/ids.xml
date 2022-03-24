@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="about" />
+    <item type="id" name="button" />
+    <item type="id" name="decrypt" />
+    <item type="id" name="editText1" />
+    <item type="id" name="help" />
+    <item type="id" name="icon" />
+    <item type="id" name="progressBar" />
+    <item type="id" name="select" />
+    <item type="id" name="settings" />
+    <item type="id" name="text1" />
+    <item type="id" name="textView1" />
+    <item type="id" name="txt_date" />
+    <item type="id" name="txt_size" />
+</resources>

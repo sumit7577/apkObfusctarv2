@@ -1,0 +1,52 @@
+Manifest-Version: 1.0
+Built-By: Generated-by-ADT
+Created-By: Android Gradle 3.5.0
+
+Name: AndroidManifest.xml
+SHA1-Digest: 2++Pwfyl5GAuJLgtKAJcZGpsfgk=
+
+Name: META-INF/AL2.0
+SHA1-Digest: WY+H8HL2biJp3WkZKSspNNuyBJI=
+
+Name: META-INF/LGPL2.1
+SHA1-Digest: OaIfM8reoYrcwjv4CNfV6mQZyLE=
+
+Name: assets/testkey.past
+SHA1-Digest: dAVFaPm/JcI+WUmNNFjk2Y+7S18=
+
+Name: assets/testkey.pk8
+SHA1-Digest: kt4FLLgE3qdfmBWmbX0/b5Ec22M=
+
+Name: classes.dex
+SHA1-Digest: sPnPbWrZL96IYbXBp9UTY4fQeiE=
+
+Name: res/drawable-anydpi-v21/ic_file.xml
+SHA1-Digest: 3dLEwDCXiLSrmH0e0byFL8c8WHs=
+
+Name: res/drawable-anydpi-v21/ic_folder.xml
+SHA1-Digest: suO/sZgyJhW+CFw5MSISMrPSwPA=
+
+Name: res/drawable-anydpi-v21/ic_launcher.xml
+SHA1-Digest: /oq6HnXnWgx17IIrCW1WMQ2tD2Y=
+
+Name: res/drawable-anydpi-v21/ic_settings.xml
+SHA1-Digest: cjbwqvH+hM0KpO9OcB6CvyFVeNU=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: pgI1/IKgn0T9+96cb59SnOgXN6I=
+
+Name: res/layout/li_row_textview.xml
+SHA1-Digest: Z4NrobHUvQ7No28io3BejqirTUc=
+
+Name: res/menu/mymenu.xml
+SHA1-Digest: feRpaNt41m4bLcFnZ4c8QiCtHFY=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: ab1OOjU2srAze8nhLe851og8sxI=
+
+Name: res/xml/splits0.xml
+SHA1-Digest: GqXgE2OuFFcXYPgLNh4Dyn+OPVE=
+
+Name: resources.arsc
+SHA1-Digest: Kq26twulh9IfZlQFz+3dlv7QEfQ=
+

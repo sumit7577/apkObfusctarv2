@@ -1,0 +1,53 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: 5PcWCpohqCXupYaaNkraNltyGus=
+X-Android-APK-Signed: 2
+
+Name: AndroidManifest.xml
+SHA1-Digest: OWU3IGfEZtN+TBRYq3bGPoSRyyw=
+
+Name: META-INF/AL2.0
+SHA1-Digest: 8T/JnNHjfsSgmhRpz5IYnBVNmgs=
+
+Name: META-INF/LGPL2.1
+SHA1-Digest: PmjuBRCiSxOH38JkrWNg/sk6Nxs=
+
+Name: assets/testkey.past
+SHA1-Digest: nCzQYgJ77m91fgzN07xRMDp91JM=
+
+Name: assets/testkey.pk8
+SHA1-Digest: u8Dvzfdtx1dsH0Kl7QgT2BmRDg4=
+
+Name: classes.dex
+SHA1-Digest: Th45oiYSn2NM0xoDB7BOXyXQags=
+
+Name: res/drawable-anydpi-v21/ic_file.xml
+SHA1-Digest: AaMiwU4+4uf0wr6lBoPRKJw5eKs=
+
+Name: res/drawable-anydpi-v21/ic_folder.xml
+SHA1-Digest: CJh18gtro5wZsOKL1maC66JqiuM=
+
+Name: res/drawable-anydpi-v21/ic_launcher.xml
+SHA1-Digest: 9qlcLp7/uVRwmZwBsz5CrvT9a8U=
+
+Name: res/drawable-anydpi-v21/ic_settings.xml
+SHA1-Digest: XzSMDTP5jWKEPqRqFcJebJKgoY0=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: Eyx21h4d78jCrpTgQQhYqxMvcL0=
+
+Name: res/layout/li_row_textview.xml
+SHA1-Digest: USWHwe+V5aY0PdEWAfo3BQVQ+Is=
+
+Name: res/menu/mymenu.xml
+SHA1-Digest: rNIOWdqdCtaGxDCTnBovm+qZyAI=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: ipbn8L2PmNmPqOUp98YqLLNkhfE=
+
+Name: res/xml/splits0.xml
+SHA1-Digest: Hn8Fy/ibhymxWcVPKsqY5xl4+K4=
+
+Name: resources.arsc
+SHA1-Digest: KVkYgfE6ud7ZV5cRICiEsrv0UN4=
+

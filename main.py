@@ -111,6 +111,7 @@ def delete(filename):
     customFilename = "obfuscation_working_dir/"+filename[:-4:]+"_obfuscated.apk"
     if os.path.exists(app.config["UPLOAD_FOLDER"]+customFilename):
         os.remove(app.config["UPLOAD_FOLDER"]+customFilename)
+        return {"error":False,"message":"File Successfully deleted!"}
     else:
         return {"error":True,"message":"File Not Found!"}
 

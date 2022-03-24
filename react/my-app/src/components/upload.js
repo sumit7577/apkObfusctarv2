@@ -39,23 +39,29 @@ function Upload(props) {
         labelRef.current.click();
     }
     const clicked = async () => {
+        const prev = localStorage.getItem("previous");
+
+        if (prev !== undefined && prev !== "") {
+            fetch(`/delete/${prev}`).then((resp) => resp.json).then((data) => console.log(data)).catch((e) => console.error(e));
+        }
+
         if (labelRef.current.files[0]) {
-            stores.dispatch({type:"UPLOAD",payload:fileName});
-            localStorage.setItem("previous",fileName);
+            stores.dispatch({ type: "UPLOAD", payload: fileName });
+            localStorage.setItem("previous", fileName);
             let formData = new FormData();
-            formData.append("file",labelRef.current.files[0]);
-            formData.append("name",props.values);
+            formData.append("file", labelRef.current.files[0]);
+            formData.append("name", props.values);
             const data = await fetch("/api/upload", {
                 method: 'POST',
-                body:formData,
-                
+                body: formData,
+
             });
             const resp = await data.json();
-            if(resp.error===false){
-                stores.dispatch({type:"UPLOADED",payload:{message:fileName,status:resp.error}});
+            if (resp.error === false) {
+                stores.dispatch({ type: "UPLOADED", payload: { message: fileName, status: resp.error } });
             }
-            else{
-                stores.dispatch({type:"ERROR",payload:{message:resp.message,status:resp.error}});
+            else {
+                stores.dispatch({ type: "ERROR", payload: { message: resp.message, status: resp.error } });
             }
         }
         else {
