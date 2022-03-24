@@ -14,6 +14,7 @@ limiter = Limiter(
     key_func=get_remote_address,
     default_limits=["100 per day", "60 per hour"]
 )
+
 BASE_DIR = Path(__file__).resolve().parent
 app.config['MAX_CONTENT_LENGTH'] = 90 * 1000 * 1000
 app.config['UPLOAD_FOLDER'] = "Files/"
@@ -46,7 +47,8 @@ def backgroundWork(secureFilename,obfuscator):
         return True
 
     except Exception as e:
-        print(e)
+        with open(os.path.join(BASE_DIR,"log/error.txt"),mode="w") as file:
+            file.write(e)
         return False
 
     
@@ -113,4 +115,4 @@ def delete(filename):
         return {"error":True,"message":"File Not Found!"}
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
